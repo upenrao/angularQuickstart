@@ -1,7 +1,19 @@
-import {Component} from '@angular/core';
+// import {Component} from '@angular/core';
+
+// @Component({
+//     selector: 'my-app',
+//     template: '<h1>My First Angular 2 App</h1>'
+// })
+// export class AppComponent { }
+
+// import {bootstrap} from "@angular/platform-browser-dynamic"
+import { Component} from '@angular/core';
 
 @Component({
-    selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+    selector: 'app',
+    template: '<div> Hello World! </div>'
 })
-export class AppComponent { }
+export class App {
+
+}
+// bootstrap(App);
